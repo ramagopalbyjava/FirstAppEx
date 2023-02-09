@@ -23,5 +23,12 @@ public class Demo {
         assertEquals(actualResults,expectedResults);
     }
 
+    @Test
+    public void testMulMethod(){
+        AddTest atss=new AddTest();
+        int expectedResulte= atss.mulMethod(6,8);
+        int actualResulte=48;
+        assertEquals(actualResulte,expectedResulte);
+    }
 
 }

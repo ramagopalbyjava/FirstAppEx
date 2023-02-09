@@ -8,4 +8,8 @@ public class AddTest {
     public int subMethod(int e, int f){
         return e-f;
     }
+
+    public int mulMethod(int c,int d){
+        return c*d;
+    }
 }

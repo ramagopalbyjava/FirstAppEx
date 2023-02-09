@@ -16,4 +16,8 @@ public class AddTest {
     public int divMethod(int p,int q){
         return p/q;
     }
+
+    public int giveReturn(int s,int m,int n){
+        return s+m+n;
+    }
 }

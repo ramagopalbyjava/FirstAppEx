@@ -38,4 +38,12 @@ public class Demo {
        int av=2;
        assertEquals(ev,av);
     }
+
+    @Test
+    public void testGiveReturn(){
+        AddTest o=new AddTest();
+       int z= o.giveReturn(1,2,3);
+       int t=6;
+       assertEquals(z,t);
+    }
 }

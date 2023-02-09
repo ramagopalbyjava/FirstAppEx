@@ -31,4 +31,11 @@ public class Demo {
         assertEquals(actualResulte,expectedResulte);
     }
 
+    @Test
+    public void testDivMethod(){
+        AddTest a=new AddTest();
+       int ev= a.divMethod(8,4);
+       int av=2;
+       assertEquals(ev,av);
+    }
 }

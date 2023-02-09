@@ -12,4 +12,8 @@ public class AddTest {
     public int mulMethod(int c,int d){
         return c*d;
     }
+
+    public int divMethod(int p,int q){
+        return p/q;
+    }
 }

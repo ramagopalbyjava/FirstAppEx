@@ -5,7 +5,7 @@ public class AddTest {
         return a+b;
     }
 
-    public int subMethod(int c, int d){
-        return c-d;
+    public int subMethod(int e, int f){
+        return e-f;
     }
 }
